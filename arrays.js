@@ -21,11 +21,11 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array
 }
 function removeElementFromBeginningOfArray(array) {
-  var newarray = array.slice(1)
-  return newarray
+  return array.slice(1)
 }
 function destructivelyRemoveElementFromEndOfArray(array) {
-  return array.pop()
+  array.pop()
+  return array
 }
 function removeElementFromEndOfArray(array) {
   var newarray = array.slice(0, array.length - 1)
